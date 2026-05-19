@@ -9,6 +9,7 @@
 .container {
   max-width: 1200px;
   margin: auto;
+  overflow: hidden;
   padding: 0 15px;
 }
 
@@ -650,33 +651,6 @@ footer::before {
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
-
-/* arrow of slider */
-.slick-prev::before,
-.slick-next::before {
-  color: #f55f8d;
-  font-size: 30px;
-  transition: all 0.5s;
-}
-
-.slick-prev {
-  margin-left: -10px;
-  opacity: 0.8;
-}
-
-.slick-next {
-  opacity: 0.8;
-}
-
-.slick-prev:hover {
-  opacity: 1;
-}
-
-.slick-next:hover {
-  opacity: 1;
-}
-
-
 
 .footer-sub p {
   font-size: 30px;
